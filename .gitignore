@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Output
+dist
+build
+node_modules/
+public/build
+public/uploads
+public/.well-known
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Dependencies
+/node_modules
+/package-lock.json
+/yarn.lock
+
+# Others
+.DS_Store
+Thumbs.db
+*.pem
+*.pid
+npm-debug.log
+yarn-error.log
+
+# Installers
+./installers/
+/installers/
+installers/
+
+./installers/windows/
+/installers/windows/
+installers/windows/
+
+./installers/linux/
+/installers/linux/
+installers/linux/
+
+./installers/mac/
+/installers/mac/
+installers/mac/
